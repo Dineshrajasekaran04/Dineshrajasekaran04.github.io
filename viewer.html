@@ -1,0 +1,34 @@
+<div id="projectViewer" class="pv-viewer">
+    <div class="pv-container">
+        
+        <button class="pv-close" aria-label="Close Project Viewer">✕</button>
+
+        <section class="pv-media">
+            <button class="pv-arrow pv-prev" aria-label="Previous Slide">❮</button>
+            
+            <img class="pv-image" id="pvImage" src="" alt="Project Content">
+            <video class="pv-video" id="pvVideo" playsinline controls></video>
+            
+            <div class="pv-loader"></div>
+            
+            <button class="pv-arrow pv-next" aria-label="Next Slide">❯</button>
+        </section>
+
+        <section class="pv-info">
+            <h2 id="pvTitle" class="pv-title"></h2>
+            <p id="pvRole" class="pv-role"></p>
+            
+            <p id="pvDescription" class="pv-description"></p>
+
+            <div id="pvTech" class="pv-tech"></div>
+            
+            <div id="pvDots" class="pv-dots"></div>
+
+            <div class="pv-project-nav">
+                <button id="pvPrevProject" class="pv-project-btn" onclick="projectViewer.navigateProject(-1)">← Previous Project</button>
+                <button id="pvNextProject" class="pv-project-btn" onclick="projectViewer.navigateProject(1)">Next Project →</button>
+            </div>
+        </section>
+
+    </div>
+</div>
