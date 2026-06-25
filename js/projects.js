@@ -12,8 +12,8 @@ const projects = [
             { type: "image", src: "images/projectkiller/2.png" },
             { type: "image", src: "images/projectkiller/3.png" },
             { type: "image", src: "images/projectkiller/4.png" },
-            { type: "video", src: "videos/Game Trailer.mp4" },
-            { type: "video", src: "videos/Menu.mp4" }
+            {type:"youtube",src:"https://www.youtube.com/embed/ZNgoftTLh7U?si=fxPO8RrzvrUnaNvu"},
+            {type:"youtube",src:"https://www.youtube.com/embed/r2p5LANWQdw?si=9FuPRxwzvxrmv9pf"}
         ],
     },
 
@@ -33,7 +33,7 @@ const projects = [
             { type: "image", src: "images/Three Friends/s.png" },
             { type: "image", src: "images/Three Friends/sc.png" },
             { type: "image", src: "images/Three Friends/sp.png" },
-            { type: "video", src: "videos/Three Friends.mp4" }
+            { type: "youtube", src: "https://www.youtube.com/embed/hN-93S0Zbzs?si=sWbO9_HoMS64DRYq" }
         ],
     },
 
@@ -46,8 +46,8 @@ const projects = [
         slides: [
             { type: "image", src: "images/Cinematics/1.png" },
             { type: "image", src: "images/Cinematics/3.png" },
-            { type: "video", src: "videos/Shot 1.mp4" },
-            { type: "video", src: "videos/Shot2.mp4" }
+            { type: "youtube", src: "https://www.youtube.com/embed/2v-ZpqL8QpQ?si=Ruc4TzmMn4pKWcvR" },
+            { type: "youtube", src: "https://www.youtube.com/embed/83DbEO_BJJ0?si=o5nD18AXrMW4f-l2" }  
         ],
     },
 
@@ -66,8 +66,9 @@ const projects = [
             { type: "image", src: "images/car/13.png" },
             { type: "image", src: "images/car/14.png" },
             { type: "image", src: "images/car/15.png" },
-            { type: "video", src: "videos/car.mp4" },
-            { type: "video", src: "videos/car2.mp4" }
+            { type: "youtube", src: "https://www.youtube.com/embed/JTpAMIxTI0M?si=UWimdvt_xO4iIe7r" },
+            { type: "youtube", src: "https://www.youtube.com/embed/rfN4WwbRVIM?si=vMPcP7ffwkwyGB4W" },
+            { type: "youtube", src: "https://www.youtube.com/embed/JTpAMIxTI0M?si=3C3EtRddlzFcHS2f" } 
         ],
     },
 
@@ -77,6 +78,10 @@ const projects = [
         role: "Solo Unity Game Developer",
         description: "Built Last Delivery, a 2D sci-fi platformer where players navigate hazardous research facilities, collect Data Cores, and restore power while uncovering the story. Designed and developed the complete gameplay experience, including player mechanics, level progression, checkpoints, environmental hazards, mobile controls, UI, audio integration, and performance optimization for Android.",
         tech: ["Unity 6", "C#", "Unity 2D Physics", "Unity UI", "Mobile Controls", "Audio Integration", "Performance Optimization","Git & Version Control"],
+        button: {
+            text: "Play on itch.io",
+            url: "https://dineshrajasekaran04.itch.io/last-delivery"
+        },
         slides: [
             { type: "image", src: "images/Last Delivery/ur.png" },
             { type: "image", src: "images/Last Delivery/1.png" },
@@ -88,7 +93,7 @@ const projects = [
             { type: "image", src: "images/Last Delivery/7.png" },
             { type: "image", src: "images/Last Delivery/8.png" },
 
-            { type: "video", src: "videos/car2.mp4" }
+            {type:"youtube",src:"https://www.youtube.com/embed/6YsCXdTCg8E?si=NNzyw8TYNW4rjaEz"}
         ],
     }
 ];

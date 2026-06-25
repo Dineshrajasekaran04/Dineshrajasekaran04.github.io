@@ -54,20 +54,46 @@ const projectViewer = {
         const techEl = document.getElementById('pvTech');
         techEl.innerHTML = p.tech.map(t => `<span>${t}</span>`).join('');
 
+        const actionBtn = document.getElementById('pvActionBtn');
 
+        if (p.button) {
+        actionBtn.textContent = p.button.text;
+        actionBtn.href = p.button.url;
+        actionBtn.style.display = "inline-flex";
+        } else {
+                actionBtn.style.display = "none";
+                }
+
+
+        // Update Media
         // Update Media
         const img = document.getElementById('pvImage');
         const vid = document.getElementById('pvVideo');
+        const yt = document.getElementById('pvYoutube');
+
         this.stopVideo();
 
-        if (s.type === 'image') {
+        img.style.display = "none";
+        vid.style.display = "none";
+        yt.style.display = "none";
+
+        if (s.type === "image") {
+
             img.src = s.src;
-            img.style.display = 'block';
-            vid.style.display = 'none';
-        } else {
+            img.style.display = "block";
+
+        }
+        else if (s.type === "video") {
+
             vid.src = s.src;
-            img.style.display = 'none';
-            vid.style.display = 'block';
+            vid.style.display = "block";
+
+        }
+        else if (s.type === "youtube") {
+
+            yt.src = s.src;
+            yt.style.display = "block";
+
         }
 
         // Render Dots
@@ -111,9 +137,18 @@ const projectViewer = {
 },
 
     stopVideo() {
-        const vid = document.getElementById('pvVideo');
-        vid.pause();
-        vid.currentTime = 0;
+
+        const vid = document.getElementById("pvVideo");
+
+        if (!vid.paused) {
+
+            vid.pause();
+            vid.currentTime = 0;
+
+        }
+
+        document.getElementById("pvYoutube").src = "";
+
     }
 };
 
