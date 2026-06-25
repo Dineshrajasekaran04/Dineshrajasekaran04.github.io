@@ -3539,21 +3539,21 @@ td:last-child {
  * -------------------------------------------------------------------- */
 .s-intro__scroll-down {
     --line-length: 8rem;
-    z-index      : 2;
-    position     : absolute;
-    bottom       : var(--vspace-2);
-    right        : calc(var(--gutter) + var(--vspace-0_75));
+    z-index: 2;
+    position: absolute;
+    bottom: var(--vspace-2);
+    right: calc(var(--gutter) + var(--vspace-0_75));
 }
 
 .s-intro__scroll-down::before {
-    content         : "";
-    display         : block;
-    height          : var(--line-length);
-    width           : 1px;
-    background-color: rgba(255, 255, 255, 0.5);
-    position        : absolute;
-    top             : calc(var(--line-length) * -1 - var(--vspace-1));
-    left            : 50%;
+    content: "";
+    display: block;
+    height: var(--line-length);
+    width: 1px;
+    background-color: rgba(255,255,255,.5);
+    position: absolute;
+    top: calc(var(--line-length) * -1 - var(--vspace-1));
+    left: 50%;
 }
 
 .s-intro__scroll-down a {
@@ -3866,6 +3866,7 @@ td:last-child {
         --content-padding-top: max(10rem, 10vh);
     }
 }
+
 
 
 /* ===================================================================
@@ -4543,3 +4544,4 @@ td:last-child {
     border-radius:16px;
 
 }
+
