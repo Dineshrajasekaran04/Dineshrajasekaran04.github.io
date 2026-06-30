@@ -3,8 +3,8 @@ const projects = [
         id: 0,
         title: "Project Killer",
         role: "Gameplay & Networking Developer",
-        description: "Developing a networked multiplayer horror game using Unreal Engine 5.7 (Blueprints). Built replicated gameplay systems including player movement synchronization, EOS multiplayer sessions, replicated item interactions, objective system, AI with Behavior Trees and AI Perception, player roles, inventory, abilities, and game state management. The project is actively being improved with additional mechanics, UI, and performance optimizations.",
-        tech: ["UE5", "Blueprints", "Networking", "EOS", "Multiplayer"],
+        description: "Developing a networked multiplayer horror game using Unreal Engine 5.7 (Blueprints). Built replicated gameplay systems including player movement synchronization, EOS multiplayer sessions, replicated item interactions, objective system, AI with Behavior Trees and AI Perception, player roles, inventory, abilities, and game state management. The project is actively being improved with additional mechanics, UI, and performance optimizations. Used Diversion for version control and collaborative project management.",
+        tech: ["UE5", "Blueprints", "Networking", "EOS", "Multiplayer", "Diversion"],
         slides: [
             { type: "image", src: "images/projectkiller/lobby.jpg" },
             { type: "image", src: "images/projectkiller/ProjectKiller.png" },
@@ -21,8 +21,8 @@ const projects = [
         id: 1,
         title: "Three Friends",
         role: "Gameplay Systems Developer",
-        description: "Developed a complete 2D story-driven game in Unreal Engine using Blueprints. Designed multiple levels, implemented player mechanics, enemy AI, UI, game logic, scene transitions, and audio integration, creating a polished and immersive gameplay experience from start to finish.",
-        tech: ["UE5", "Blueprints", "2D Systems","Audio Integration","UMG","AI","Game Logic"],
+        description: "Developed a complete 2D story-driven game in Unreal Engine using Blueprints. Designed multiple levels, implemented player mechanics, enemy AI, UI, game logic, scene transitions, and audio integration, creating a polished and immersive gameplay experience from start to finish. Used Diversion for version control and collaborative project management.",
+        tech: ["UE5", "Blueprints", "2D Systems","Audio Integration","UMG","AI","Game Logic","Diversion"],
         slides: [
             { type: "image", src: "images/Three Friends/h.png" },
             { type: "image", src: "images/Three Friends/e.png" },
@@ -76,7 +76,7 @@ const projects = [
         id: 4,
         title: "Last Delivery",
         role: "Solo Unity Game Developer",
-        description: "Built Last Delivery, a 2D sci-fi platformer where players navigate hazardous research facilities, collect Data Cores, and restore power while uncovering the story. Designed and developed the complete gameplay experience, including player mechanics, level progression, checkpoints, environmental hazards, mobile controls, UI, audio integration, and performance optimization for Android.",
+        description: "Built Last Delivery, a 2D sci-fi platformer where players navigate hazardous research facilities, collect Data Cores, and restore power while uncovering the story. Designed and developed the complete gameplay experience, including player mechanics, level progression, checkpoints, environmental hazards, mobile controls, UI, audio integration, and performance optimization for Android. Used Git & GitHub for version control and source code management.",
         tech: ["Unity 6", "C#", "Unity 2D Physics", "Unity UI", "Mobile Controls", "Audio Integration", "Performance Optimization","Git & Version Control"],
         button: {
             text: "Play on itch.io",
