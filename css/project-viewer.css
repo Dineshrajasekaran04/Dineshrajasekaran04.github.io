@@ -138,6 +138,15 @@ flex:0 0 60%;
 
 }
 
+#pvDescription a{
+    color: var(--color-1);
+    font-weight: 600;
+}
+
+#pvDescription a:hover{
+    color: var(--color-white);
+}
+
 .pv-tech { margin-bottom: 20px; }
 .pv-tech span {
     display: inline-block;

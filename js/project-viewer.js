@@ -49,7 +49,7 @@ const projectViewer = {
         // Update Info
         document.getElementById('pvTitle').textContent = p.title;
         document.getElementById('pvRole').textContent = p.role;
-        document.getElementById('pvDescription').textContent = p.description;
+        document.getElementById('pvDescription').innerHTML = p.description;
         
         const techEl = document.getElementById('pvTech');
         techEl.innerHTML = p.tech.map(t => `<span>${t}</span>`).join('');
