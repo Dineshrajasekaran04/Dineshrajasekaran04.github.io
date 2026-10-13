@@ -50,9 +50,54 @@ const projects = [
 
         slug: "last-delivery",
     },
+
+        {
+        id: 1,
+        title: "Phantom Signal",
+        role: "Solo Unity Game Developer",
+        description: "🎮 <a href=\"https://www.youtube.com/embed/BpnmUVY-yfg?si=7u-tgJzlJteCEZEV\" target=\"_blank\">Watch Gameplay.</a> Developing a First-Person SCI-FI game in Unity 6 using C#. Designed multiple levels, implemented player mechanics, enemy AI, UI, game logic, scene transitions, and audio integration, creating a polished and immersive gameplay experience. Used Git & Version Control for collaborative project management.",
+        tech: ["Unity 6", "C#", "3D Systems","Audio Integration","Unity UI","AI","Game Logic","Git & Version Control"],
+        slides: [
+            { type: "image", src: "images/Phantom Signal/Main_Menu.png" },
+            { type: "image", src: "images/Phantom Signal/mis.png" },
+            { type: "image", src: "images/Phantom Signal/ingame1.png" },
+            { type: "image", src: "images/Phantom Signal/ingame2.png" },
+            { type: "image", src: "images/Phantom Signal/ingame3.png" },
+            { type: "image", src: "images/Phantom Signal/ingame4.png" },
+            { type: "youtube", src: "https://www.youtube.com/embed/BpnmUVY-yfg?si=7u-tgJzlJteCEZEV" }
+        ],
+
+        category: [
+            "Unity 6",
+            "C#",
+            "Full Game Development"
+        ],
+
+        engine: "Unity 6",
+
+        platform: "Windows & WebGL",
+
+        status: "In Development",
+
+        youtube: "https://www.youtube.com/embed/BpnmUVY-yfg?si=7u-tgJzlJteCEZEV",
+
+        itch: "https://dineshrajasekaran04.itch.io/phantom-signal",
+
+        shortDescription:"PHANTOM SIGNAL is a first-person sci-fi FPS Game developed in Unity 6 with gameplay mechanics, AI, UI systems, level progression, and immersive player interactions.",
+
+        cardTags: [
+            "Unity 6",
+            "C#",
+            "Full Game Development",
+            "Audio Integration",
+        ],
+
+        slug: "phantom-signal",
+
+    },
     
     {
-        id: 1,
+        id: 2,
         title: "Project Killer",
         role: "Gameplay & Networking Developer",
         description: "🎮 <a href=\"https://www.youtube.com/embed/r2p5LANWQdw?si=9FuPRxwzvxrmv9pf\" target=\"_blank\">Watch Gameplay.</a> Developing a networked multiplayer horror game using Unreal Engine 5.7 (Blueprints). Built replicated gameplay systems including player movement synchronization, EOS multiplayer sessions, replicated item interactions, objective system, AI with Behavior Trees and AI Perception, player roles, inventory, abilities, and game state management. The project is actively being improved with additional mechanics, UI, and performance optimizations. Used Diversion for version control and collaborative project management.",
@@ -96,7 +141,7 @@ const projects = [
         
     },
 
-    {
+   /* {
         id: 2,
         title: "Three Friends",
         role: "Gameplay Systems Developer",
@@ -142,5 +187,5 @@ const projects = [
 
         slug: "three-friends",
 
-    },
+    },*/
 ];
