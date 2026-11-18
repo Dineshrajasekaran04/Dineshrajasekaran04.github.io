@@ -4780,7 +4780,7 @@ td:last-child {
 ========================================================== */
 
 .s-experience {
-    padding-top: var(--vspace-4);
+    padding-top: 0;
     padding-bottom: 0;
 }
 
@@ -4869,13 +4869,6 @@ td:last-child {
     color: var(--color-1);
 }
 
-@media screen and (max-width: 800px) {
-    .s-experience {
-    padding-top: var(--vspace-3);
-    padding-bottom: 0;
-}
-}
-
 @media screen and (max-width: 700px) {
     .experience-item {
         padding: var(--vspace-0_75) var(--vspace-0_75);
@@ -4887,16 +4880,6 @@ td:last-child {
     }
 }
 
-.s-works {
-    padding-top: var(--vspace-4);
-}
-
 .experience-item {
-    margin-bottom: var(--vspace-1);
-}
-
-@media screen and (max-width: 800px) {
-    .s-works {
-        padding-top: var(--vspace-3);
-    }
+    margin-bottom: var(--vspace-3);
 }
